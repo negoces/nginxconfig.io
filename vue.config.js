@@ -70,9 +70,9 @@ export default {
         }
 
         // Use a custom HTML template
-        config.plugin('html').tap(options => {
-            options[0].template = fileURLToPath(new URL('build/index.html', import.meta.url));
-            return options;
-        });
+        // config.plugin('html').tap(options => {
+        //     options[0].template = fileURLToPath(new URL('build/index.html', import.meta.url));
+        //     return options;
+        // });
     },
 };

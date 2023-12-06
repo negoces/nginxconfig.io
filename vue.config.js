@@ -69,7 +69,7 @@ export default {
                 .tap(options => ({ ...options, sourceMap: true }));
         }
 
-        // Use a custom HTML template
+        // Use a custom HTML template (DigitalOcean)
         // config.plugin('html').tap(options => {
         //     options[0].template = fileURLToPath(new URL('build/index.html', import.meta.url));
         //     return options;

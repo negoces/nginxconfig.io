@@ -1,5 +1,5 @@
 /*
-Copyright 2022 DigitalOcean
+Copyright 2024 DigitalOcean
 
 This code is licensed under the MIT License.
 You may obtain a copy of the License at
@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 export const defaultPack = 'en';
 
-export { default as defaultPackData } from '../i18n/en';
+export { default as defaultPackData } from '../i18n/en/index.js';
 
 export const toSep = (pack, sep) =>
     pack
@@ -51,4 +51,5 @@ export const availablePacks = Object.freeze([
     'ru',
     'zhCN',
     'zhTW',
+    'fa',
 ]);
